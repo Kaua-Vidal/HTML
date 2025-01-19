@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu HTML</title>
     <style>
-    
-        h1 {
-            background-color: aqua;
+        .imgAguia {
+            height: 200px;
+            width: 200px;
+        }
+
+        .name{
+            background-color: blue;
         }
     </style>
 </head>
@@ -15,25 +19,82 @@
 
 <body>
     <h1 id="head" class="name">
-        Olá Mundo, tudo bom?
+        Título - 1
     </h1>
     <h1 id="head-two" class="name">
-        Olá Mundo, tudo bom?
+        Título - 2
     </h1>
-    <h2>teste</h2>
-    <p>Teste de Parágrafo</p>
+    <h2>Subtitulo</h2>
+    <p>Parágrafo</p>
 
     <hr>
 
-     <!--Teste de Headings(Cabeçalhos)-->
-     <h1>Meu Título</h1>
-     <p><small>asdas</small><high>asdas</high>dasdasd</p>
-     <h2>Meu Título</h2>
-     <h3>Meu Título</h3>
-     <h4>Meu Título</h4>
-     <h5>Meu Título</h5>
-     <h6>Meu Título</h6>
+    <!--Teste de Headings(Cabeçalhos)-->
+    <h1>Meu Título</h1>
+    <h2>Meu Título</h2>
+    <h3>Meu Título</h3>
+    <h4>Meu Título</h4>
+    <h5>Meu Título</h5>
+    <h6>Meu Título</h6>
 
-     
+    <hr>
+    <!--Tags HTML-->
+
+    <h1>Cabeçalho</h1>
+    <p>
+        <b>Tag "b", é uma tag bold, sem significado.</b> <strong>Tag "strong" mas para algo de enfase</strong>
+    </p>
+
+    <br><br>
+
+    <i>Tag "i" para deixar em Italico.</i> <em>Tag "em" para dar enfase em semântica</em>
+
+    <br><br>
+
+    <a href="https://docs.google.com/document/d/1h6wdcMpyYRkkO-x9jNQtQmcBwC95cdd8GitvQxqhQOE/edit?tab=t.0" target="_self">A tag "a" serve para colocar um link, assim como nesse texto. Assim como o target serve para dizer onde a aba será aberta.</a>
+
+    <br><br>
+
+    <p>
+        A tag "img" serve para colocar uma imagem, como também tags de largura e comprimento dentro. 
+    </p>
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/038/516/357/small_2x/ai-generated-eagle-logo-design-in-black-style-on-transparant-background-png.png" alt="Logo aleatoria">
+
+    <br>
+
+    <p>
+        Como também, colocando a tag "a" de link, a imagem virá um link:
+    </p>
+    <a href="https://docs.google.com/document/d/1h6wdcMpyYRkkO-x9jNQtQmcBwC95cdd8GitvQxqhQOE/edit?tab=t.0">
+        <img class="imgAguia" src="https://static.vecteezy.com/system/resources/thumbnails/038/516/357/small_2x/ai-generated-eagle-logo-design-in-black-style-on-transparant-background-png.png" alt="Logo aleatoria">
+    </a>
+
+    <br><br>
+
+    <p>
+        Caso você erre e queira mostrar, use a tag <del>"del"</del> e a tag "ins" para inserir algo <ins>dessa forma.</ins> Todas essas são semanticas
+    </p> 
+    <br>
+    <p>Já para as tags mais fisicas, temos: "s" que faz <s>isso.</s> Assim como a tag "u" que faz <u>isso.</u>
+    </p>
+
+    <br><br>
+
+    <!--Tags que não são inline, não podem ir dentro do <p>-->
+    
+    <blockquote>Aqui eu estou fazendo um bloco de citação, utilizando "blockquote".</blockquote>
+
+    <p>
+        A tag "hr" utiliza-se para fazer uma linha, dessa forma:
+    </p>
+    <hr>
+    <br>
+    <p>
+        A tag "code", usamos para quando queremos demonstrar que é um código e a <code>fonte fica assim</code> e alinhado a essa tag, temos a tag "pre" que usa o texto pré formatado.
+    </p>
+    <br>
+    <p>As tags "span" e "div" são tags vazias que sozinhas não fazem nada, mas acompanhadas de texto, podem alterar o texto. A "span" é inline, já a "div" é em bloco, como por exemplo:
+        <span style="color: red;">span</span>
+    </p>
 </body>
 </html>
