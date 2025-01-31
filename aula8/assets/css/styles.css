@@ -1,0 +1,46 @@
+.heading {
+    transition: all 1s ease-in-out;
+}
+
+.heading:hover {
+    background: rgba(0,0,0,0.1);
+}
+
+a {
+    color: darkblue;
+}
+
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:hover {
+    background-color: darkred;
+    color: white;
+    text-decoration:none;
+    transition: all 0.3s ease-in-out;
+}
+a:active {
+    background-color: darkblue;
+    color: white;
+    text-decoration:none;
+    transition: all 0.3s ease-in-out;
+}
+
+input {
+    transform: scale(1, 1);
+    transform-origin: left;
+    transition: transform 0.4s ease-in-out;
+}
+
+input:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    outline: none;
+    border: 1px solid black;
+    transform-origin: left;
+    transform: scale(1.1, 1.1);
+}
