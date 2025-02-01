@@ -1,0 +1,11 @@
+div {
+    color: white;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(0,0,0,0.1);
+}
+
+p {
+    font-style: initial; /* Initial faz com que não herde*/
+    font-family: inherit; /* Inherit faz com que herde*/ 
+}
